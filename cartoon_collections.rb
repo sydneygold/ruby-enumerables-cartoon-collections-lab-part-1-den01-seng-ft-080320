@@ -15,4 +15,4 @@ array.each_with_index do |name, num|
   end
   end
 
-  end
+  
