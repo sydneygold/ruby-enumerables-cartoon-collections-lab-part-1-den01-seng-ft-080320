@@ -9,7 +9,7 @@ def list_dwarves(array)
 array.each_with_index do |name, num|
   index = 1
   while array[name] < array.count do
-    puts "#{num}. #{name}"
+    puts "#{num}.to_i. #{name}"
     end
     index += 1
   end
