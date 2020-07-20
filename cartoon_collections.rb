@@ -7,7 +7,7 @@ end
 
 def list_dwarves(array)
 (array).each_with_index do |name, index|
-puts index.to_s + name
+puts index.to_s + "." + name
 index += 1
   end
 end
