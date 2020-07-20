@@ -10,8 +10,9 @@ array.each_with_index do |name, num|
   index = 1
   while array[name] < array.count do
     puts "#{num}. #{name}"
-  end
+    end
     index += 1
+  end
   end
 
   end
