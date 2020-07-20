@@ -9,4 +9,5 @@ def list_dwarves(array)
 array.each_with_index do |name, num|
 
   end
+end
 binding.pry
